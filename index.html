@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Music Website</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <style>
+    .nash {
+      display: flex;
+      position: relative;
+      left: 180px;
+      border: 2px solid rgb(8, 202, 209);
+      width: 232px;
+    }
+    #name1 {
+      position: relative;
+      display: flex;
+      top: 233px;
+      right: 169px;
+      font-size: larger;
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+      color: rgb(211, 211, 158);
+      padding: 14px;
+      border-radius: 8px;
+      width: 70px;
+      height: 24px;
+      background-color: rgb(41, 37, 37);
+      text-decoration: none;
+      border: none;
+    }
+    .sard {
+      display: flex;
+      position: relative;
+      left: 480px;
+      border: 2px solid rgb(8, 202, 209);
+      width: 200px;
+      bottom: 223px;
+    }
+    #name2 {
+      position: relative;
+      display: flex;
+      top: 233px;
+      right: 160px;
+      font-size: larger;
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+      color: beige;
+      border: 2px solid grey;
+      padding: 14px;
+      border-radius: 8px;
+      width: 90px;
+      height: 24px;
+      background-color: black;
+      text-decoration: none;
+      border: none;
+    }
+    #name2:hover {
+      position: relative;
+      display: flex;
+      top: 233px;
+      right: 160px;
+      font-size: larger;
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+      color: rgb(241, 221, 221);
+      border: 2px solid grey;
+      padding: 14px;
+      border-radius: 8px;
+      width: 90px;
+      height: 24px;
+      background-color: rgb(231, 138, 16);
+      text-decoration: none;
+      transition: 0.3s;
+      border: none;
+    }
+    #name1:hover {
+      border: none;
+      position: relative;
+      display: flex;
+      top: 233px;
+      right: 160px;
+      font-size: larger;
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+      color: rgb(241, 221, 221);
+      border: 2px solid grey;
+      border-radius: 8px;
+      width: 90px;
+      height: 24px;
+      background-color: rgb(231, 138, 16);
+      text-decoration: none;
+      transition: 0.3s;
+    }
+    #name1 a {
+      text-decoration: none;
+      color: white;
+    }
+    #name2 a {
+      text-decoration: none;
+      color: white;
+    }
+    .logoo {
+      position: relative;
+
+      color: #000000;
+      padding: 9px;
+      background-color: aliceblue;
+      border-radius: 8px;
+    }
+  </style>
+  <body>
+    <div class="hero">
+      <div class="navbar">
+        <h2 class="logoo">PashtoMp3</h2>
+        <ul>
+          <li><a href="./index.html">HOME</a></li>
+          <li>
+            <a
+              href="./About/index2.html"
+              >ABOUT</a
+            >
+          </li>
+
+          <li><a href="/contact webpage/index.html">CONTACT</a></li>
+        </ul>
+      </div>
+      <div class="content">
+        <div class="left">
+          <h1>
+            Exploring <br />
+            Pashto <br />
+            Classics
+          </h1>
+        </div>
+        <div class="nash">
+          <img src="nashenas.png" alt="nashenas" height="223px" />
+          <p id="name1"><a href="/Nashenas/index.html"> Nashenas</a></p>
+        </div>
+        <div class="sard">
+          <img src="sard.png" alt="sardar" height="223px" width="543px" />
+          <p id="name2"><a href="/sardar ali takkar/index.html">Takkar</a></p>
+        </div>
+      </div>
+    </div>
+
+    <audio id="mysong">
+      <source src="1.mp3" type="audio/mp3" />
+    </audio>
+
+    
+  </body>
+</html>

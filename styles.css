@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.hero{
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/image.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    border: 2px solid black;
+    color: #e59b15;
+}
+
+.navbar
+{
+width: 88%;
+margin: auto;
+padding: 15px 0;
+display: flex;
+align-items: center;
+justify-content: space-between;
+
+}
+
+.logo{
+    width: 140px;
+    cursor: pointer;
+}
+
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+
+    margin:  0 15px;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: black;
+
+}
+
+.content{
+    width: 100%;
+    position: absolute;
+    top: 30%;
+}
+
+.left{
+    margin-left: 0px;
+}
+
+.left h1{
+    font-size: 90px;
+    color: #e59b15;
+    line-height: 110px;
+    float: left;
+}
+
+.right{
+    float: right;
+    margin-right: 6%;
+    margin-top: 120px;
+    display: flex;
+    align-items: center;
+}
+
+.right p{
+    font-size: 25px;
+    color: #e59b15;
+    font-weight: 500;
+    font-family: sans-serif;
+    margin-right: 15px;
+    font-weight:12px;
+
+#icon{
+    width:80px;
+    cursor: pointer;
+    color:black
+}
+.logoo{
+    position: relative;
+    border: 2px solid black;
+    color: #e59b15;
+
+}
